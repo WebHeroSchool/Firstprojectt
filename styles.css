@@ -6,6 +6,7 @@
   width: 80%;
 }
 .header{
+  //padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -13,7 +14,34 @@
   display: inline-block;
 }
 .logo{
+  position: relative;
   padding: 40px 0;
+/*  width: 190px;
+  height: 35px;
+  background: url('img/logo.svg');*/
+  padding-left: 44px;
+  font-family: pt_serif, arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+}
+.logo__circle{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  opacity: .7;
+}
+.logo__circle_color_dark-blue{
+  background: #0056EC;
+}
+.logo__circle_color_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 .menu{
   display: flex;
@@ -26,5 +54,5 @@
   padding-right: 0;
 }
 .title{
-      font-family: Roboto;
+    font-family: Roboto;
 }

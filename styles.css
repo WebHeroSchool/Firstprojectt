@@ -3,13 +3,13 @@
 }
 .wrapper{
   margin: auto;
-  width: 80%;
+  width: 83%;
 }
 .header{
   //padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 55px;
 }
 .logo,.menu{
   display: inline-block;
@@ -92,30 +92,31 @@
   opacity: 1;
 }
 .main{
-  padding: 0 63% 100px 0;
+  padding: 0 63% 100px 20px;
   background: top right no-repeat url(img/mainImg.svg);
 }
 .main__title{
-  margin: 0 0 40px 0;
-  width: 434px;
-  height: 195px;
-  font: 700 50px/66px pt_serifregular, arial, helvetica, sans-serif;
+  margin: 0 0 29px 0;
+  padding-top: 42px;
+  width: 430px;
+  //height: 190px;
+  font: 700 44px/58px pt_serifbold, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight{
   background: #ECF3FF
 }
 .main__subtitle{
-  margin: 0 0 41px 0;
+  margin: 0 0 25px 0;
   width: 367px;
-  height: 43px;
-  font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;
+  //height: 43px;
+  font: 500 17px/17px robotoregular, arial, helvetica, sans-serif;
 }
 .main__button{
   display: inline-block;
-  padding: 14px 16px;
+  padding: 13px 14px;
   color: #fff;
   background: #0056EC;
-  font: 500 14px/16px robotoregular, arial, helvetica, sans-serif;
+  font: 500 13px/14px robotoregular, arial, helvetica, sans-serif;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;

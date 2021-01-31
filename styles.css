@@ -48,6 +48,7 @@
 .menu__item{
   position: relative;
   margin-right: 26px;
+  padding-left: 3px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -114,7 +115,7 @@
 }
 .main__button{
   display: inline-block;
-  padding: 18px 21px;
+  padding: 19px 41px 20px 20px;
   color: #fff;
   background: #0056EC;
   font: 500 18px/21px robotoregular, arial, helvetica, sans-serif;

@@ -48,7 +48,6 @@
 .menu__item{
   position: relative;
   margin-right: 26px;
-  padding-left: 3px;
   font: 500 18px/21px robotobold, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -56,6 +55,7 @@
 }
 .menu__item:last-child{
   margin-right: 0;
+  padding-right: 8px;
 }
 .menu__item_active::after{
   position: absolute;
@@ -102,7 +102,7 @@
   padding-top: 42px;
   width: 567px;
   //height: 190px;
-  font: 700 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  font: 700 72px/87px pt_serifregular, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight{
   background: #ECF3FF
